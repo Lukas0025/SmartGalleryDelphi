@@ -67,49 +67,52 @@ Konstanty:
 	
  EN:
  
- The Intelligent Gallery is an Artificial Neural Network application;
-It is necessary to realize that it is an algorithm of AI (Artificial Intelligence) and that is why the program is able to "learn from its mistakes";
+ The Intelligent Gallery is an Artificial Neural Network application
+ 
+It is necessary to realize that it is an algorithm of AI (Artificial Intelligence) and that is why the program is able to "learn from its mistakes"
+
 there are the following disadvantages:
+```
 If we do 3 times (learning from 0) learning, it is possible that they will have different results each time (synaptic scales are at random set at random between 0 and 1)
+
 In order for the neural network to be the most successful in classifying, it is necessary to repeat the teachings many times in 
 
 succession (Quietly with the same pictures)
         
-	for the purpose to which I am using the neuron network, it would be advisable to engage a learning set of at least 50,000
+for the purpose to which I am using the neuron network, it would be advisable to engage a learning set of at least 50,000
         
-	Unfortunately, dephi is not a fast language, and so many repetitions are not time-consuming
+Unfortunately, dephi is not a fast language, and so many repetitions are not time-consuming
         
-	For this reason, the file attached to the disk (Synaptic Weighing Sample - Neural Network Memory) has only 4,000 reps
+For this reason, the file attached to the disk (Synaptic Weighing Sample - Neural Network Memory) has only 4,000 reps
         
-	this is why the neural network probably has a lot of unknown images (They were not in the learning set)
-
+this is why the neural network probably has a lot of unknown images (They were not in the learning set)
+```
 
 
 Startup procedure (Image Classification)
+```
+Run the app
+        
+menu> file> open memory file ...
+        
+select a memory file
+        
+menu> options> folder with pictures ...
+        
+select the directory you want to classify
 
-	Run the app
-        
-	menu> file> open memory file ...
-        
-	select a memory file
-        
-	menu> options> folder with pictures ...
-        
-	select the directory you want to classify
-
-	Image classification is now performed
+Image classification is now performed
 	
-	Click on the category from which images you want to view
-
+Click on the category from which images you want to view
+```
 
 Startup procedure (learning)
-
-	Run the app
-        
-	menu> file> start learning from folder ...
-        (40 pictures) 0..9 -> interior, 10..19 -> scan, 20..29 -> night landscape, 30..39 -> landscape
-        
-	menu> options> folder with pictures ...
-
-	Note: Learning will not bring any improvement, because the training set will only start 101 (It can be changed in the code is a constant), because most of the pictures do not perform correctly, but some picture should be able
+```
+Run the app
 	
+menu> file> start learning from folder ... (40 pictures) 0..9 -> interior, 10..19 -> scan, 20..29 -> night landscape, 30..39 -> landscape
+	
+menu> options> folder with pictures ...
+	
+Note: Learning will not bring any improvement, because the training set will only start 101 (It can be changed in the code is a constant), because most of the pictures do not perform correctly, but some picture should be able
+```	
