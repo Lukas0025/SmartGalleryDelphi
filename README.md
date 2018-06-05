@@ -1,4 +1,4 @@
-# inteligentnGalerie
+# Smart Gallery Delphi
 CS:
 
 Inteligentní Galerie je aplikací Umělé neuronové sítě;
