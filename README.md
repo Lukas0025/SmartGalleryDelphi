@@ -1,9 +1,11 @@
 # Smart Gallery Delphi
 CS:
 
-Inteligentní Galerie je aplikací Umělé neuronové sítě;
-Je nutné si uvědomit že se jedná o algoritmus AI (Umělé inteligence) a díky tomu je se program schopný "poučit ze svých chyb";
-z toho vyplívají tyto nevýhody:
+Inteligentní Galerie je aplikací Umělé neuronové sítě
+
+Je nutné si uvědomit že se jedná o algoritmus AI (Umělé inteligence) a díky tomu je se program schopný "poučit ze svých chyb"
+
+z toho vyplývají tyto nevýhody:
 
 
 	Pokud 3x provedeme nové (učení od 0) učení je možné že bude mít pokaždé jiné vysledky (synaptické váhy jsou na začátku nastaveny náhodně mezi 0 a 1)
