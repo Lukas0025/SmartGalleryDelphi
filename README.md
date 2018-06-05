@@ -1,6 +1,6 @@
 # Smart Gallery Delphi
 
-An example of implementing [NeuralNetworkPasLib](https://github.com/Lukas0025/NeuralNetworkPasLib)
+**An example of implementing [NeuralNetworkPasLib](https://github.com/Lukas0025/NeuralNetworkPasLib)**
 
 CS:
 
