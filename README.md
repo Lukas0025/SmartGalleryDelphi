@@ -1,4 +1,7 @@
 # Smart Gallery Delphi
+
+An example of implementing [NeuralNetworkPasLib](https://github.com/Lukas0025/NeuralNetworkPasLib)
+
 CS:
 
 Inteligentní Galerie je aplikací Umělé neuronové sítě
@@ -6,38 +9,36 @@ Inteligentní Galerie je aplikací Umělé neuronové sítě
 Je nutné si uvědomit že se jedná o algoritmus AI (Umělé inteligence) a díky tomu je se program schopný "poučit ze svých chyb"
 
 z toho vyplývají tyto nevýhody:
-
-
-	Pokud 3x provedeme nové (učení od 0) učení je možné že bude mít pokaždé jiné vysledky (synaptické váhy jsou na začátku nastaveny náhodně mezi 0 a 1)
+```
+Pokud 3x provedeme nové (učení od 0) učení je možné že bude mít pokaždé jiné vysledky (synaptické váhy jsou na začátku nastaveny náhodně mezi 0 a 1)
 	
-	Aby byla neuronová sít při klasifikaci co nejúspěšnější je nutné učení zopakovat mnohokrát po sobě (Klidně se stejnýmy obrázky)
+Aby byla neuronová sít při klasifikaci co nejúspěšnější je nutné učení zopakovat mnohokrát po sobě (Klidně se stejnýmy obrázky)
         
-	pro účel ke kterému neuronovou síť používám by bylo vhodné zapokavat učící sadu alespoň 50 000
+pro účel ke kterému neuronovou síť používám by bylo vhodné zapokavat učící sadu alespoň 50 000
         
-	Bohužel dephi není příliž jazykem rychlím a tolik opakování není časově přípustné
+Bohužel dephi není příliž jazykem rychlím a tolik opakování není časově přípustné
         
-	Z tohoto důvodu soubor přiložený na disku (Ukázka synaptických vah po učení - paměť neuronové sítě) má za sebou pouze 4 000 opakování
+Z tohoto důvodu soubor přiložený na disku (Ukázka synaptických vah po učení - paměť neuronové sítě) má za sebou pouze 4 000 opakování
         
-	toto je důvod proč neuronavá síť nejspíše spoustu neznámých obrázků (Nebyly v učící sadě) zařadí špatně
-
-
+toto je důvod proč neuronavá síť nejspíše spoustu neznámých obrázků (Nebyly v učící sadě) zařadí špatně
+```
 
 Postup pro spuštění (Klasifikace obrázků)
+```	
+Spusťte aplikaci
 	
-	Spusťte aplikaci
+menu>soubor>otevřít soubor paměti...
 	
-        menu>soubor>otevřít soubor paměti...
+vyberte soubor paměti
 	
-        vyberte soubor paměti
+menu>možnosti>adresář s obrázky...
 	
-        menu>možnosti>adresář s obrázky...
+vyberte adresář který chcete klasifikovat
 	
-        vyberte adresář který chcete klasifikovat
+Nyní se provede klasifikace obrázků
 	
-	Nyní se provede klasifikace obrázků
-	
-	Klikněte na kategorii ze které obrázky chcete zobrazit
-
+Klikněte na kategorii ze které obrázky chcete zobrazit
+```
 
 Postup pro spuštění (učení)
 	
